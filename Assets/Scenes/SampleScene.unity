@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 426504879}
   - component: {fileID: 426504878}
   - component: {fileID: 426504880}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bricks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1239,6 +1239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpForce: 10
+  isJumping: 0
+  doubleJump: 0
 --- !u!1 &1077879183
 GameObject:
   m_ObjectHideFlags: 0
