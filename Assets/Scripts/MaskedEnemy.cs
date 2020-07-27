@@ -13,6 +13,7 @@ public class MaskedEnemy : MonoBehaviour
     public Transform leftCollider;
     public Transform headCollider;
     public bool colliding;
+    bool playerDestroyed;
     public LayerMask layer;
     // Start is called before the first frame update
     void Start()
@@ -40,7 +41,7 @@ public class MaskedEnemy : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             float height = collision.contacts[0].point.y - headCollider.position.y;
-            if(height > 0)
+            if(height > 0 && !playerDestroyed)
             {
                 collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 10, ForceMode2D.Impulse);
                 speed = 0;
@@ -49,6 +50,12 @@ public class MaskedEnemy : MonoBehaviour
                 circle.enabled = false;
                 rig.bodyType = RigidbodyType2D.Kinematic;
                 Destroy(gameObject, 0.35f);
+            }
+            else
+            {
+                playerDestroyed = true;
+                GameController.instance.ShowGameOver();
+                Destroy(collision.gameObject);
             }
         }
     }
