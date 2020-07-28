@@ -2078,7 +2078,7 @@ PrefabInstance:
     - target: {fileID: 2445473894166817711, guid: 8b0ca4a83106dec4397df0d1f83f279d,
         type: 3}
       propertyPath: m_ForceMagnitude
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b0ca4a83106dec4397df0d1f83f279d, type: 3}
@@ -9751,7 +9751,7 @@ PrefabInstance:
     - target: {fileID: 2445473894166817711, guid: 8b0ca4a83106dec4397df0d1f83f279d,
         type: 3}
       propertyPath: m_ForceMagnitude
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b0ca4a83106dec4397df0d1f83f279d, type: 3}
@@ -9851,7 +9851,7 @@ PrefabInstance:
     - target: {fileID: 2445473894166817711, guid: 8b0ca4a83106dec4397df0d1f83f279d,
         type: 3}
       propertyPath: m_ForceMagnitude
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b0ca4a83106dec4397df0d1f83f279d, type: 3}
@@ -10579,7 +10579,7 @@ PrefabInstance:
     - target: {fileID: 2445473894166817711, guid: 8b0ca4a83106dec4397df0d1f83f279d,
         type: 3}
       propertyPath: m_ForceMagnitude
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b0ca4a83106dec4397df0d1f83f279d, type: 3}
