@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float jumpForce;
     public bool isJumping;
     public bool doubleJump;
+    private bool isBlowing;
     private Rigidbody2D rig;
     private Animator anim;
 
@@ -49,7 +50,7 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !isBlowing)
         {
             if(!isJumping)
             {
@@ -93,6 +94,22 @@ public class Player : MonoBehaviour
         if(collision.gameObject.layer == 8)
         {
             isJumping = true;
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D collider) 
+    {
+        if(collider.gameObject.tag == "Fan")
+        {
+            isBlowing = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collider) 
+    {
+        if(collider.gameObject.tag == "Fan")
+        {
+            isBlowing = false;
         }
     }
 }
