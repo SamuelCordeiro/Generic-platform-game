@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         instance = this;
+        Load();
     }
 
     // Update is called once per frame
@@ -21,16 +22,32 @@ public class GameController : MonoBehaviour
     {
         
     }
-
     public void ScoreTextUpdate()
     {
+        Save();
         scoreText.text = totalScore.ToString();
     }
 
+    public void Save()
+    {
+        PlayerPrefs.SetInt("x", totalScore);
+    }
+    public void Load()
+    {
+        totalScore = PlayerPrefs.GetInt("x");
+        ScoreTextUpdate();
+    }
     public void ShowGameOver()
     {
        gameOver.SetActive(true);
 
+    }
+
+    public void StartGame(string levelName)
+    {
+        SceneManager.LoadScene("Level 1");
+        totalScore = 0;
+        Save();
     }
 
     public void RestartGame(string levelName)
