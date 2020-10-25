@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
-    public float speed;
-    public float jumpForce;
-    public bool isJumping;
-    public bool doubleJump;
+    [SerializeField]private float speed;
+    [SerializeField]private float jumpSpeed;
+    [SerializeField]private bool isJumping;
+    [SerializeField]private bool doubleJump;
     private bool isBlowing;
     private Rigidbody2D rig;
     private Animator anim;
@@ -45,7 +44,6 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("walk", false);
         }
-        
     }
 
     void Jump()
@@ -54,7 +52,7 @@ public class Player : MonoBehaviour
         {
             if(!isJumping)
             {
-                rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+                rig.velocity = Vector2.up * jumpSpeed;
                 doubleJump = true;
                 anim.SetBool("jump", true);
             }
@@ -62,9 +60,8 @@ public class Player : MonoBehaviour
             {
                 if(doubleJump)
                 {
-                    rig.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-                    doubleJump = false;
-                    
+                    rig.velocity = Vector2.up * jumpSpeed;
+                    doubleJump = false; 
                 }
             }
         }
@@ -77,12 +74,7 @@ public class Player : MonoBehaviour
             anim.SetBool("jump", false);
         }
 
-        if(collision.gameObject.tag == "Spike")
-        {
-            GameController.instance.ShowGameOver();
-            Destroy(gameObject);
-        }
-        if(collision.gameObject.tag == "Saw")
+        if(collision.gameObject.tag == "Pitfalls")
         {
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
