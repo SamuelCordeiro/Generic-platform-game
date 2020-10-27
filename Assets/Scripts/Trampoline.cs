@@ -23,7 +23,8 @@ public class Trampoline : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             anim.SetTrigger("Jump");
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            //collision.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            collision.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpForce;
         }
     }
 }
