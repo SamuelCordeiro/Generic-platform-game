@@ -52,8 +52,8 @@ public class Player : MonoBehaviour
         {
             if(!isJumping)
             {
-                rig.velocity = Vector2.up * jumpSpeed;
                 doubleJump = true;
+                rig.velocity = Vector2.up * jumpSpeed;
                 anim.SetBool("jump", true);
             }
             else
