@@ -13,7 +13,7 @@ public class Saw : MonoBehaviour
     [SerializeField] private int pointsCount;
     [SerializeField] private List<int> flipPoints;
     // Start is called before the first frame update
-    void Start(){}
+    void Start() { }
 
     // Update is called once per frame
     void Update()
@@ -41,15 +41,15 @@ public class Saw : MonoBehaviour
     void Move()
     {
         transform.position = Vector2.MoveTowards(transform.position, points[pointsCount].position, speed * Time.deltaTime);
-        
-        if(transform.position == points[pointsCount].transform.position)
+
+        if (transform.position == points[pointsCount].transform.position)
         {
-            
-            pointsCount += 1; 
-            flip(); 
+
+            pointsCount += 1;
+            flip();
             //transform.eulerAngles = new Vector3(0f,0f,0f);
         }
-        if(pointsCount == points.Count)
+        if (pointsCount == points.Count)
         {
             pointsCount = 0;
             //transform.eulerAngles = new Vector3(0f,180f,0f);
@@ -58,9 +58,13 @@ public class Saw : MonoBehaviour
 
     void flip()
     {
-       if(flipPoints.Contains(pointsCount))
+        if(flipPoints.Count == 0)
         {
             GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
-        } 
+        }
+        else if (flipPoints.Contains(pointsCount))
+        {
+            GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
+        }
     }
 }
