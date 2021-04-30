@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class EndSceneController : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> test = new List<GameObject>();
-    [SerializeField] private GameObject nextLevel;
+    [SerializeField] private List<GameObject> gameObjectsGoals = new List<GameObject>();
+    [SerializeField] private List<GameObject> nextLevel = new List<GameObject>();
+    private bool inconpleteGoals;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,17 +16,22 @@ public class EndSceneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < test.Count; i++)
+        for (int i = 0; i < gameObjectsGoals.Count; i++)
         {
-            if(test[i] == null)
+            if(gameObjectsGoals[i] == null)
             {
-                test.RemoveAt(i);
+                gameObjectsGoals.RemoveAt(i);
             }
         }
 
-        if(test.Count == 0)
+        if(gameObjectsGoals.Count == 0 && !inconpleteGoals)
         {
-            nextLevel.SetActive(true);
+            inconpleteGoals = true;
+            for (int i = 0; i < nextLevel.Count; i++)
+            {
+                nextLevel[i].SetActive(true);
+            }
+            
         }
     }
 }
