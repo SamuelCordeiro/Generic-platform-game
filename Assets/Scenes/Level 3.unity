@@ -219,7 +219,7 @@ PrefabInstance:
     - target: {fileID: 5450093891534438406, guid: 3cda69e711ff56a4c930321b9bca8691,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.52
+      value: -3.77
       objectReference: {fileID: 0}
     - target: {fileID: 5450093891534438406, guid: 3cda69e711ff56a4c930321b9bca8691,
         type: 3}
@@ -1831,7 +1831,7 @@ PrefabInstance:
     - target: {fileID: 5450093891534438406, guid: 3cda69e711ff56a4c930321b9bca8691,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4497266
+      value: 1.6997266
       objectReference: {fileID: 0}
     - target: {fileID: 5450093891534438406, guid: 3cda69e711ff56a4c930321b9bca8691,
         type: 3}
@@ -9567,6 +9567,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
         type: 3}
+      propertyPath: gameObjectsGoals.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
       propertyPath: nextLevel
       value: 
       objectReference: {fileID: 1725113772}
@@ -9613,6 +9618,56 @@ PrefabInstance:
     - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
         type: 3}
       propertyPath: test.Array.data[8]
+      value: 
+      objectReference: {fileID: 1369212045}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: nextLevel.Array.data[0]
+      value: 
+      objectReference: {fileID: 1725113772}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[0]
+      value: 
+      objectReference: {fileID: 850254776}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[1]
+      value: 
+      objectReference: {fileID: 549704930}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[2]
+      value: 
+      objectReference: {fileID: 819842874}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[3]
+      value: 
+      objectReference: {fileID: 453824190}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[4]
+      value: 
+      objectReference: {fileID: 864672559}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[5]
+      value: 
+      objectReference: {fileID: 767207914}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[6]
+      value: 
+      objectReference: {fileID: 1337805115}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[7]
+      value: 
+      objectReference: {fileID: 676869996}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[8]
       value: 
       objectReference: {fileID: 1369212045}
     m_RemovedComponents: []
@@ -10628,7 +10683,7 @@ PrefabInstance:
     - target: {fileID: 5450093891534438406, guid: 3cda69e711ff56a4c930321b9bca8691,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2
+      value: -0.95000005
       objectReference: {fileID: 0}
     - target: {fileID: 5450093891534438406, guid: 3cda69e711ff56a4c930321b9bca8691,
         type: 3}
