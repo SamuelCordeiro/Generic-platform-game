@@ -160,7 +160,7 @@ PrefabInstance:
     - target: {fileID: 1661220541562813019, guid: 386f1a72808865a45b3091805e59c690,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.628906
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1661220541562813019, guid: 386f1a72808865a45b3091805e59c690,
         type: 3}
@@ -614,6 +614,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
         type: 3}
+      propertyPath: gameObjectsGoals.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
       propertyPath: test.Array.data[0]
       value: 
       objectReference: {fileID: 1639821386}
@@ -667,6 +672,61 @@ PrefabInstance:
       propertyPath: nextLevel
       value: 
       objectReference: {fileID: 932134081}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: nextLevel.Array.data[0]
+      value: 
+      objectReference: {fileID: 932134081}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[0]
+      value: 
+      objectReference: {fileID: 1639821386}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[1]
+      value: 
+      objectReference: {fileID: 1291302040}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[2]
+      value: 
+      objectReference: {fileID: 1997036424}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[3]
+      value: 
+      objectReference: {fileID: 257905027}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[4]
+      value: 
+      objectReference: {fileID: 1229559650}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[5]
+      value: 
+      objectReference: {fileID: 734551146}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[6]
+      value: 
+      objectReference: {fileID: 435474949}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[7]
+      value: 
+      objectReference: {fileID: 1671213875}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[8]
+      value: 
+      objectReference: {fileID: 83998077}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[9]
+      value: 
+      objectReference: {fileID: 1325863314}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0db3b77f92521bd418d6c59e564fb6ae, type: 3}
 --- !u!1 &426504876
@@ -9622,7 +9682,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -11371,7 +11431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581509798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4671755, y: -0.68512774, z: -22.628906}
+  m_LocalPosition: {x: 1.4671755, y: -0.68512774, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1961579369}
@@ -12088,7 +12148,7 @@ PrefabInstance:
     - target: {fileID: 240555987947254507, guid: b5c45e977dd578544bc7da0102a65a0e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.628906
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 240555987947254507, guid: b5c45e977dd578544bc7da0102a65a0e,
         type: 3}
@@ -12256,7 +12316,7 @@ PrefabInstance:
     - target: {fileID: 4032452456991377727, guid: 4b05a81cfd749b447ac21738525aa446,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.628906
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4032452456991377727, guid: 4b05a81cfd749b447ac21738525aa446,
         type: 3}
