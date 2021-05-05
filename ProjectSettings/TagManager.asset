@@ -9,6 +9,7 @@ TagManager:
   - Pitfalls
   - Spike
   - NextLevel
+  - Bullet
   layers:
   - Default
   - TransparentFX
