@@ -43,5 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d26d988a15a4724f8296b5b3863ebed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: []
-  nextLevel: {fileID: 0}
+  gameObjectsGoals: []
+  nextLevel: []
