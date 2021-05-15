@@ -2056,6 +2056,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
         type: 3}
+      propertyPath: gameObjectsGoals.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: nextLevel.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
       propertyPath: test.Array.data[0]
       value: 
       objectReference: {fileID: 2091327884}
@@ -2079,6 +2089,31 @@ PrefabInstance:
       propertyPath: nextLevel
       value: 
       objectReference: {fileID: 1389103188}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: nextLevel.Array.data[0]
+      value: 
+      objectReference: {fileID: 1389103188}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[0]
+      value: 
+      objectReference: {fileID: 2091327884}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[1]
+      value: 
+      objectReference: {fileID: 1829250199}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[2]
+      value: 
+      objectReference: {fileID: 465659571}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[3]
+      value: 
+      objectReference: {fileID: 1068980020}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0db3b77f92521bd418d6c59e564fb6ae, type: 3}
 --- !u!1001 &904416957
