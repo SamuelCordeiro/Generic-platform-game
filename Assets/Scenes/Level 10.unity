@@ -2425,6 +2425,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
         type: 3}
+      propertyPath: nextLevel.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
       propertyPath: test.Array.data[0]
       value: 
       objectReference: {fileID: 1281823967}
@@ -2458,6 +2468,41 @@ PrefabInstance:
       propertyPath: nextLevel
       value: 
       objectReference: {fileID: 1647257520}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: nextLevel.Array.data[0]
+      value: 
+      objectReference: {fileID: 1647257520}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[0]
+      value: 
+      objectReference: {fileID: 1281823967}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[1]
+      value: 
+      objectReference: {fileID: 1068927362}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[2]
+      value: 
+      objectReference: {fileID: 1354144971}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[3]
+      value: 
+      objectReference: {fileID: 2075902996}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[4]
+      value: 
+      objectReference: {fileID: 1581025187}
+    - target: {fileID: 6210960850193233351, guid: 0db3b77f92521bd418d6c59e564fb6ae,
+        type: 3}
+      propertyPath: gameObjectsGoals.Array.data[5]
+      value: 
+      objectReference: {fileID: 453187988}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0db3b77f92521bd418d6c59e564fb6ae, type: 3}
 --- !u!1001 &904416957
