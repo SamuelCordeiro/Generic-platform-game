@@ -10,6 +10,7 @@ TagManager:
   - Spike
   - NextLevel
   - Bullet
+  - PlayerFoot
   layers:
   - Default
   - TransparentFX
